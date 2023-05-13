@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Inter';
+}
+h1{
+    font-size: 50px;
+    color:white
+}
+.calculator-container{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+input{
+    margin: 20px 0px;
+    width: 500px;
+    display: block;;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #666;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+button{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    
+}
+.error{
+    color: red;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.result{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.success{
+    color: green;
+    margin-top: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width: 750px) {
+    .calculator-container{
+        max-width: 75%;
+         height: auto;
+    }
+}
